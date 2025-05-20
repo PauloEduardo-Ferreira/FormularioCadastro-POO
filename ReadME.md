@@ -4,7 +4,8 @@ Este é um projeto simples e didático de um formulário HTML com validação co
 
 ## 📸 Prévia
 
-![Formulário Validado](https://via.placeholder.com/800x400?text=Prévia+do+formulário)
+![image](https://github.com/user-attachments/assets/81463d1c-750a-477f-bb42-42fa3bf892ce)
+
 
 ## 🚀 Funcionalidades
 
@@ -28,12 +29,19 @@ Este é um projeto simples e didático de um formulário HTML com validação co
 ## 📁 Estrutura de Arquivos
 
 📦 formulario-poo
+
 ├── index.html
+
 ├── assets
+
 │ ├── css
+
 │ │ └── style.css
+
 │ └── js
+
 │ ├── main.js
+
 │ └── ValidaCPF.js
 
 
@@ -80,4 +88,5 @@ CPF válido com verificação real dos dígitos
 ## 🧑‍💻 Autor
 
 Feito com dedicação por Paulo Eduardo 🚀
+
 Se curtir, deixe uma ⭐️ no repositório!
