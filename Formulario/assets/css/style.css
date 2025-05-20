@@ -1,0 +1,139 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* 1rem = 16px */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #2e3a59;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 40rem; /* 640px */
+  margin: 4rem auto;
+  background: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 0.75rem; /* 12px */
+  box-shadow: 0 0.5rem 1.25rem rgba(46, 58, 89, 0.1);
+  border: 1px solid #e0e6f0;
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 0.75rem 1.75rem rgba(46, 58, 89, 0.15);
+}
+
+h1 {
+  font-size: 2.25rem; /* 36px */
+  font-weight: 700;
+  color: #347a37;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  color: #556080;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 1.25rem;
+  list-style-type: disc;
+  line-height: 1.5;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #2e3a59;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  border: 1px solid #ccd6e6;
+  border-radius: 0.5rem; /* 8px */
+  background-color: #fefefe;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 0.05);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 6px rgba(76, 175, 80, 0.4);
+  outline: none;
+  background-color: #fff;
+}
+
+button {
+  padding: 0.85rem 0;
+  background: linear-gradient(135deg, #4caf50, #2e7d32);
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 0.5rem 1rem rgba(46, 58, 89, 0.15);
+  user-select: none;
+}
+
+button:hover,
+button:focus {
+  background: linear-gradient(135deg, #3a9b37, #1b4d17);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 0.25rem 0.5rem rgba(46, 58, 89, 0.2);
+}
+
+.error-text {
+  color: #e03e3e; 
+  font-size: 0.75rem; 
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+
+@media (max-width: 40rem) { 
+  .container {
+    margin: 2rem 1rem;
+    padding: 2rem 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
+
