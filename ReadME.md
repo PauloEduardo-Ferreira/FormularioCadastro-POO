@@ -4,7 +4,9 @@ Este é um projeto simples e didático de um formulário HTML com validação co
 
 ## 📸 Prévia
 
-![image](https://github.com/user-attachments/assets/81463d1c-750a-477f-bb42-42fa3bf892ce)
+![image](https://github.com/user-attachments/assets/7fa4402d-fb96-4a24-aaea-b18f31d0d9b1)
+
+
 
 
 ## 🚀 Funcionalidades
